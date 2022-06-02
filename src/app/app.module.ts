@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { TituloComponent } from './componentes/titulo/titulo.component';
 import { SinopseComponent } from './componentes/sinopse/sinopse.component';
 import { CriticasComponent } from './componentes/criticas/criticas.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { CastComponent } from './componentes/cast/cast.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TituloComponent,
     SinopseComponent,
-    CriticasComponent
+    CriticasComponent,
+    HomeComponent,
+    CastComponent,
   ],
   imports: [
     BrowserModule,
